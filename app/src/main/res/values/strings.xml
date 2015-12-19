@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">WordCard</string>
+    <string name="app_name">Word Card</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_word_card">WordCardActivity</string>
+    <string name="title_activity_word_list">WordListActivity</string>
+    <string name="title_activity_alphabet_selector">""</string>
 </resources>

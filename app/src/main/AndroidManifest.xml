@@ -10,6 +10,15 @@
         <activity
             android:name=".StartActivity"
             android:label="@string/app_name" >
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".WordCardActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,8 +26,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".WordCardActivity"
-            android:label="@string/title_activity_word_card" >
+            android:name=".WordListActivity"
+            android:label="@string/title_activity_word_list" >
+        </activity>
+        <activity
+            android:name=".AlphabetSelectorActivity"
+            android:label="@string/title_activity_alphabet_selector" android:theme="@style/Theme.UserDialog">
         </activity>
     </application>
 

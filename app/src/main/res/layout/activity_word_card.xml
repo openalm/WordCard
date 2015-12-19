@@ -1,11 +1,140 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wordCardVG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cColorPrimary"
     tools:context="geekyfry.wordcard.WordCardActivity">
 
+    <RelativeLayout
+        android:id="@+id/headerVG"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp">
 
+        <RelativeLayout
+            android:id="@+id/alphabetVG"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/cWhite"
+            android:elevation="7dp">
+
+            <TextView
+                android:id="@+id/alphabetTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="A"
+                android:textColor="@color/cBlu500"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/randomVG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/settingRandomDisabledImg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_random"
+                android:tint="@color/cGrey500" />
+
+            <ImageView
+                android:id="@+id/settingRandomEnabledImg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_random"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/listVG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/randomVG"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_list" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/wordVG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/wordTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="abate"
+                android:textColor="@color/cWhite"
+                android:textSize="33dp" />
+
+            <TextView
+                android:id="@+id/wordPosTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/cWhite"
+                android:textSize="@dimen/abc_text_size_small_material" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wordMeaningTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wordVG"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="'the meaning'"
+            android:textColor="#CCCCCC"
+            android:textSize="@dimen/abc_text_size_medium_material" />
+        <!--</RelativeLayout>-->
+
+        <TextView
+            android:id="@+id/wordUsageTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wordMeaningTV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Usage: 'the meaning'"
+            android:textColor="#CCCCCC"
+            android:textSize="@dimen/abc_text_size_medium_material" />
+        <!--</LinearLayout>-->
+    </RelativeLayout>
 
 </RelativeLayout>
