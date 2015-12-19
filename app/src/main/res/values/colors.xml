@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cColorPrimary">@color/cBlu700</color>
+    <color name="cColorPrimaryDark">@color/cBlu900</color>
+    <color name="cAccentColor">@color/cAPink400</color>
+    <color name="cColorPrimaryLight">@color/cBlu500</color>
+
+    <color name="cSemiTransparentColor">#99212121</color>
+
+    <!--//CBlue-->
+    <!--<color name="cABlu700">#FF3073FE</color>-->
+    <!--<color name="cABlu400">#FF3D7CFE</color>-->
+    <!--<color name="cABlu200">#FF3073FE</color>-->
+    <!--<color name="cABlu100">#FF8CB2FF</color>-->
+    <!--<color name="cBlu900">#FF1A508F</color>-->
+    <!--<color name="cBlu800">#FF285EA1</color>-->
+    <!--<color name="cBlu700">#FF3066AB</color>-->
+    <!--<color name="cBlu600">#FF396EB6</color>-->
+    <!--<color name="cBlu500">#FF3F74BF</color>-->
+    <!--<color name="cBlu400">#FF5C89C8</color>-->
+    <!--<color name="cBlu300">#FF799FD2</color>-->
+    <!--<color name="cBlu200">#FF9FBADF</color>-->
+    <!--<color name="cBlu100">#FFC5D5EC</color>-->
+    <!--<color name="cBlu50">#FFE8EEF7</color>-->
+
+    <!--//CBlue-->
+    <color name="cABlu700">#FF3073FE</color>
+    <color name="cABlu400">#FF3D7CFE</color>
+    <color name="cABlu200">#FF3073FE</color>
+    <color name="cABlu100">#FF8CB2FF</color>
+    <color name="cBlu900">#FF1A508F</color>
+    <color name="cBlu800">#FF285EA1</color>
+    <color name="cBlu700">#FF3066AB</color>
+    <color name="cBlu600">#FF396EB6</color>
+    <color name="cBlu500">#FF3F74BF</color>
+    <color name="cBlu400">#FF5C89C8</color>
+    <color name="cBlu300">#FF799FD2</color>
+    <color name="cBlu200">#FF9FBADF</color>
+    <color name="cBlu100">#FFC5D5EC</color>
+    <color name="cBlu50">#FFE8EEF7</color>
+
+    <!--//Red-->
+    <color name="cRed900">#FFB71C1C</color>
+    <color name="cRed700">#FFD32F2F</color>
+    <color name="cRed500">#FFF44336</color>
+    <color name="cRed400">#FFEF5350</color>
+
+    <!--//grey-->
+    <color name="cGrey900">#FF212121</color>
+    <color name="cGrey700">#FF616161</color>
+    <color name="cGrey500">#FF9E9E9E</color>
+    <color name="cGrey200">#FFEEEEEE</color>
+    <color name="cGrey100">#FFF5F5F5</color>
+    <color name="cGrey50">#FFFAFAFA</color>
+
+    <!--//Green-->
+    <color name="cGreen900">#FF1B5E20</color>
+    <color name="cGreen700">#FF388E3C</color>
+    <color name="cGreen500">#FF4CAF50</color>
+    <color name="cGreen200">#FFA5D6A7</color>
+
+    <!--//Amber-->
+    <color name="cAmber700">#FFFFA000</color>
+    <color name="cAmber500">#FFFFC107</color>
+
+    <!--//Light Blue-->
+    <color name="cLightBlue700">#FF0288D1</color>
+    <color name="cLightBlue500">#FF03A9F4</color>
+
+    <!--// Purple-->
+    <color name="cPurple700">#FF7B1FA2</color>
+    <color name="cPurple500">#FF9C27B0</color>
+    <color name="cWhite">#FFFFFFFF</color>
+    <color name="cRed200">#FFEF9A9A</color>
+    <color name="cRed50">#FFFFEBEE</color>
+    <color name="cAmber900">#FFFF6F00</color>
+    <color name="cOrange900">#FFE65100</color>
+    <color name="cOrange200">#FFFFCC80</color>
+    <color name="cOrange100">#FFFFE0B2</color>
+
+
+    <!--//Indigo-->
+    <color name="cIndigo900">#FF1A237E</color>
+    <color name="cIndigo800">#FF283593</color>
+    <color name="cIndigo700">#FF303F9F</color>
+    <color name="cIndigo600">#FF3949AB</color>
+    <color name="cIndigo500">#FF3F51B5</color>
+    <color name="cIndigo400">#FF5C6BC0</color>
+    <color name="cIndigo300">#FF7986CB</color>
+    <color name="cIndigo200">#FF9FA8DA</color>
+    <color name="cIndigo100">#FFC5CAE9</color>
+    <color name="cIndigo50">#FFE8EAF6</color>
+
+    <!--//Pink-->
+    <color name="cAPink400">#FFF50057</color>
+    <color name="cPink900">#FF283593</color>
+    <color name="cPink800">#FF283593</color>
+    <color name="cPink700">#FF303F9F</color>
+    <color name="cPink600">#FF3949AB</color>
+    <color name="cPink500">#FF3F51B5</color>
+    <color name="cPink400">#FF5C6BC0</color>
+    <color name="cPink300">#FF7986CB</color>
+    <color name="cPink200">#FF9FA8DA</color>
+    <color name="cPink100">#FFC5CAE9</color>
+    <color name="cPink50">#FFE8EAF6</color>
+    <color name="cGrey300">#FFE0E0E0</color>
+    <color name="cGrey800">#FF424242</color>
+</resources>
