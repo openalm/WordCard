@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/cGrey200"
+    android:background="@android:color/transparent"
     tools:context="geekyfry.wordcard.AlphabetSelectorActivity"
     android:theme="@style/Theme.UserDialog"
     android:paddingTop="2dp"

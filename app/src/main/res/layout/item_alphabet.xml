@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="65dp"
     android:layout_margin="2dp"
-    android:background="@color/cBlu500"
+    android:background="@color/cBlu700"
     android:id="@+id/alphabetContainerVG">
 
     <TextView
