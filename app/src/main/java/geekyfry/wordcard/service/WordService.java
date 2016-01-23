@@ -169,7 +169,7 @@ public class WordService {
 
     private List<Word> getWordsFromFile() {
 
-        InputStream in = context.getResources().openRawResource(R.raw.words);
+        InputStream in = context.getResources().openRawResource(R.raw.wl);
         if (wordList.isEmpty()) {
             wordList = new ArrayList<Word>(1500);
         }
@@ -190,7 +190,7 @@ public class WordService {
 
     private Word getWordFromLine(String line) {
 
-        String[] words = line.split(",");
+        String[] words = line.split("@");
 
         //0=ID,1=LETTER,2=WORD,3=POS1,4=POS2,5=DEFINITION,6=LEVEL,7=USAGE,8=Synonym,9=Antonym
         Word word = new Word(words);

@@ -20,7 +20,9 @@ public class Word {
     }
 
     public Word(String[] words) {
-        this(words[2], words[3], words[4], words[5], words[6], "","","");
+//        this(words[2], words[3], words[4], words[5], words[6], "","","");
+// 0=ID,1=LETTER,2=WORD,3=POS1,4=POS2,5=DEFINITION,6=LEVEL,7=USAGE,8=Synonym,9=Antonym
+        this(words[0], words[1],"", words[2], "1", "","","");
     }
 
     public Word(String word) {
